@@ -1,0 +1,7 @@
+n=int(input())
+l=list(map(int,str(n)))
+l.sort(reverse=True)
+#print(l)
+r=list(map(str,l))
+#print(r)
+print(''.join(r))
